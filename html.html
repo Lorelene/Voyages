@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voyage Ionien — ouvrir le site</title>
+<style>
+  :root{ --sage:#8FA083; --sage-light:#AEC6A1; --txt:#e9eef0; }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--txt);
+    background:
+      radial-gradient(1200px 600px at 70% -10%, rgba(143,160,131,.18), transparent 60%),
+      radial-gradient(900px 500px at 10% 110%, rgba(174,198,161,.12), transparent 60%),
+      linear-gradient(180deg,#060f1f 0%,#04070f 100%);
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:28px;
+  }
+  .card{max-width:440px;width:100%}
+  .kicker{letter-spacing:.22em;text-transform:uppercase;font-size:11px;color:var(--sage-light);opacity:.85;margin-bottom:14px}
+  h1{font-size:27px;font-weight:600;margin:0 0 6px;line-height:1.2}
+  p.sub{margin:0 0 26px;color:#aeb9bd;font-size:14px}
+  a.btn{
+    display:inline-flex;align-items:center;gap:9px;text-decoration:none;
+    background:var(--sage);color:#0c1a12;font-weight:600;font-size:15px;
+    padding:13px 24px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.45);
+    transition:transform .15s ease, background .15s ease;
+  }
+  a.btn:hover{background:var(--sage-light);transform:translateY(-1px)}
+  a.btn svg{width:16px;height:16px}
+  .url{margin-top:18px;font-size:12.5px}
+  .url a{color:var(--sage-light);word-break:break-all;text-decoration:none;border-bottom:1px dotted rgba(174,198,161,.5)}
+  .note{margin-top:30px;font-size:11.5px;color:#7e8a8e;line-height:1.6}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="kicker">Céphalonie · Lefkada · août 2026</div>
+    <h1>Voyage Ionien</h1>
+    <p class="sub">Ton compagnon de voyage interactif</p>
+    <a class="btn" href="https://lorelene.github.io/Voyages/" target="_blank" rel="noopener">
+      Ouvrir le site
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
+    </a>
+    <div class="url"><a href="https://lorelene.github.io/Voyages/" target="_blank" rel="noopener">lorelene.github.io/Voyages</a></div>
+    <p class="note">Astuce : sur ton téléphone, ouvre ce lien puis « Ajouter à l'écran d'accueil » pour l'avoir comme une app.</p>
+  </div>
+</body>
+</html>
